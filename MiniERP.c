@@ -167,14 +167,14 @@ void Sobre(void)
 
     printf("\n  Sobre:\n");
     printf("\n  -> Trabalho final referente a cadeira Algoritmos da Universidade Feevale");
-    printf("\n  -> A proposta era desenvolver um mini ERP para um com�rcio de eletroeletr�nicos");
+    printf("\n  -> A proposta era desenvolver um mini ERP para um comércio de eletroeletrônicos");
     printf("\n  -> Desenvolvido por Hiago Silva em 2021");
 };
 
 void PrintMenu(int menu)
 {
-    printf("\n  MiniERP - Loja Eletroeletr�nicos\n");
-    printf("\n  Selecione Uma Op��o:\n\n");
+    printf("\n  MiniERP - Loja Eletroeletrônicos\n");
+    printf("\n  Selecione Uma Opção:\n\n");
     printf("   -> 1 - Incluir Produto\n");
     printf("   -> 2 - Listar Produtos\n");
     printf("   -> 3 - Consultar valor\n");
@@ -182,7 +182,7 @@ void PrintMenu(int menu)
     printf("   -> 5 - Sobre\n");
     printf("\n   -> 0 - Sair\n\n   ");
     if(menu != 0 && menu != 1 && menu != 2 && menu != 3 && menu != 4 && menu != 5)
-        printf("\n  -> Op��o Inv�lida, Digite Novamente!\n   ");
+        printf("\n  -> Opção Inválida, Digite Novamente!\n   ");
 
 };
 
@@ -201,7 +201,7 @@ int PosicaoLivre(struct cadastro *prenchido)
 
     return posLivre;
 };
-/*-----------------------------------------------------------------Vari�veis-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------Variáveis-----------------------------------------------------------------*/
 
     int menu = 0, i = 0;
     typedef struct cadastro produto;

@@ -126,11 +126,11 @@ int BuscaValor(struct cadastro *var)
 
     if(var[i].pre == 1)
     {
-        printf("\n  -> O pre�o do item %d, %s, � R$ %.2f", i, var[i].nome, var[i].valor);
+        printf("\n  -> O preço do item %d, %s, é R$ %.2f", i, var[i].nome, var[i].valor);
     }
     else
     {
-        printf("\n  -> Solicitado valor de produto n�o cadastrado !!!");
+        printf("\n  -> Solicitado valor de produto não cadastrado !!!");
     }
 };
 
@@ -151,7 +151,7 @@ int ApagarProduto(struct cadastro *var)
 
     if(var[i].pre == 0)
     {
-        printf("\n  -> Produto n�o cadastrado !!!");
+        printf("\n  -> Produto não cadastrado !!!");
     }
     else
     {
@@ -231,14 +231,14 @@ int main (void){
 
                 if(PosicaoLivre(&produtos) == 100)
                 {
-                    printf("\n\n  ->Mem�ria Cheia !!!");
+                    printf("\n\n  ->Memória Cheia !!!");
                 }
                 else
                 {
                     IncluirProduto(&produtos, PosicaoLivre(&produtos));
                 };
 
-                printf("\n \n -> Pressione Enter para continuar\n\t");//Qualquer tecla inclui o bot�o de desligar
+                printf("\n \n -> Pressione Enter para continuar\n\t");//Qualquer tecla inclui o botão de desligar
                 getch();
             break;
 
